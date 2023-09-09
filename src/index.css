@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grow{
+    flex: 2;
+}
+
+.owner{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.owner .owner-content {
+    align-items: flex-end;
+  
+}
+.owner p{
+    background: #8da4f1;
+    border-radius: 10px 0 10px 10px;
+    color: white;
+}
+
+/* ? Change scrollbar color */
+::-webkit-scrollbar {
+    width: 10px; /* * Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #5d5b8d; /* * Color of the scrollbar thumb */
+    border-radius: 100vh;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #2f2d52; /* * Color when hovering over the thumb */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #fff; /* * Color of the track */
+  }
+
+  
+  
+  
+  
